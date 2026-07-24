@@ -1,0 +1,6 @@
+Copyright 2026 OpenAI. Generated for the requesting user's personal learning use.
+
+The original companion source code in this archive may be used, modified, and
+redistributed for educational and portfolio purposes. It is provided without
+warranty. Third-party names and cited materials remain the property of their
+respective owners.

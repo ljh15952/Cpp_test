@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2560" viewBox="0 0 1600 2560">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#16233b"/>
+      <stop offset="1" stop-color="#28405d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#6bc7ff" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#6bc7ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect width="1600" height="2560" fill="url(#bg)"/>
+  <rect width="1600" height="2560" fill="url(#glow)"/>
+  <g opacity="0.25" stroke="#7ec8f5" fill="none" stroke-width="4">
+    <path d="M80 420 H420 V610 H690 V300 H980 V520 H1520"/>
+    <path d="M40 1780 H300 V1540 H590 V1890 H860 V1650 H1160 V1940 H1560"/>
+    <path d="M120 1080 H360 V920 H620 V1220 H940 V980 H1270 V1160 H1500"/>
+  </g>
+  <g fill="#8bd8ff" opacity="0.55">
+    <circle cx="420" cy="420" r="11"/><circle cx="690" cy="610" r="11"/><circle cx="980" cy="300" r="11"/>
+    <circle cx="300" cy="1780" r="11"/><circle cx="590" cy="1540" r="11"/><circle cx="860" cy="1890" r="11"/>
+    <circle cx="620" cy="920" r="11"/><circle cx="940" cy="1220" r="11"/><circle cx="1270" cy="980" r="11"/>
+  </g>
+  <g transform="translate(800 1160)">
+    <circle r="405" fill="#0b1425" stroke="#9edfff" stroke-width="7" opacity="0.9"/>
+    <circle r="315" fill="none" stroke="#5fa3cc" stroke-width="3" stroke-dasharray="18 18" opacity="0.6"/>
+    <rect x="-180" y="-180" width="360" height="360" rx="28" fill="#1c3450" stroke="#b5e7ff" stroke-width="6"/>
+    <g stroke="#b5e7ff" stroke-width="8">
+      <line x1="-260" y1="-120" x2="-180" y2="-120"/><line x1="-260" y1="0" x2="-180" y2="0"/><line x1="-260" y1="120" x2="-180" y2="120"/>
+      <line x1="180" y1="-120" x2="260" y2="-120"/><line x1="180" y1="0" x2="260" y2="0"/><line x1="180" y1="120" x2="260" y2="120"/>
+      <line x1="-120" y1="-260" x2="-120" y2="-180"/><line x1="0" y1="-260" x2="0" y2="-180"/><line x1="120" y1="-260" x2="120" y2="-180"/>
+      <line x1="-120" y1="180" x2="-120" y2="260"/><line x1="0" y1="180" x2="0" y2="260"/><line x1="120" y1="180" x2="120" y2="260"/>
+    </g>
+    <text x="0" y="-20" text-anchor="middle" fill="#eefaff" font-size="92" font-family="Noto Sans CJK KR, sans-serif" font-weight="700">0 → 1</text>
+    <text x="0" y="82" text-anchor="middle" fill="#8bd8ff" font-size="42" font-family="Noto Sans CJK KR, sans-serif">BIT · CODE · SYSTEM</text>
+  </g>
+  <text x="800" y="260" text-anchor="middle" fill="#9edfff" font-size="48" letter-spacing="8" font-family="Noto Sans CJK KR, sans-serif">FROM HISTORY TO SYSTEMS</text>
+  <text x="800" y="2060" text-anchor="middle" fill="#ffffff" font-size="96" font-family="Noto Sans CJK KR, sans-serif" font-weight="800">컴퓨터를 끝까지 이해하는</text>
+  <text x="800" y="2185" text-anchor="middle" fill="#ffffff" font-size="126" font-family="Noto Sans CJK KR, sans-serif" font-weight="900">프로그래머</text>
+  <text x="800" y="2295" text-anchor="middle" fill="#c7eaff" font-size="42" font-family="Noto Sans CJK KR, sans-serif">역사 · 논리 · 하드웨어 · 운영체제 · 언어 · 알고리즘</text>
+  <text x="800" y="2355" text-anchor="middle" fill="#c7eaff" font-size="42" font-family="Noto Sans CJK KR, sans-serif">분산 시스템 · 보안 · 성능 · 게임 엔진</text>
+  <text x="800" y="2465" text-anchor="middle" fill="#8faec3" font-size="34" font-family="Noto Sans CJK KR, sans-serif">개인 맞춤 학습판 · 2026</text>
+</svg>
