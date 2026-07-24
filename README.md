@@ -31,3 +31,4 @@ cmake --build build-asan
 ```
 
 의도적 오류 프로그램은 학습 전용입니다.
+https://chatgpt.com/share/e/6a6322aa-5214-83ee-a2ea-5de37c5ac7dd
