@@ -1,0 +1,15 @@
+PASS 14
+01. public actions limited to debug_ping and generate_training_material
+02. evaluation, release blocking, and targeted repair remain removed
+03. all internal method references resolve
+04. debug_ping v3.1 resilient editorial contract
+05. top-level JSON array compatibility and list-key mapping
+06. planner JSON-format failure continues with rule-based plan
+07. minimum slide count is a preference, not a forced floor
+08. editor JSON failure uses local fallback and continues
+09. batched editor safely merges editable fields only
+10. actual PPTX generation with adaptive layouts
+11. mocked end-to-end generation and PPTX-only cleanup
+12. duplicate calls reuse the first generation result
+13. automatic duplicate generation is prohibited
+14. system prompt v3.1 resilient routing and fallback contract

@@ -1,0 +1,20 @@
+DirectX 12 게임 엔진과 실시간 그래픽스 - 배포 메모
+
+구성
+- EPUB 3 교재: 127개 번호 장/절, 200개 워크북 문제, 20개 미니 프로젝트
+- 60개 참고문헌: Microsoft 공식 문서/사양과 주요 실시간 그래픽스 논문
+- 19개 자체 제작 개념도
+- C++20/D3D12/HLSL 실습 코드
+
+검증
+- EPUB ZIP 구조 및 모든 XML/XHTML 파싱 성공
+- EPUB manifest 누락 파일 0
+- portable C++20 코드 GCC 14.2 빌드 및 CTest 통과
+- AddressSanitizer/UndefinedBehaviorSanitizer 테스트 통과
+
+제약
+- Windows 전용 D3D12 triangle은 Windows SDK가 없는 Linux 제작 환경에서는
+  실제 컴파일하지 못했으므로 Windows 11 + Visual Studio 2022에서 검증해야 한다.
+- EPUB 수식은 EPUB 3 MathML을 사용한다. 리더의 MathML 지원 수준에 따라
+  표시 차이가 있을 수 있으므로 Apple Books, Thorium Reader 등 EPUB 3 호환
+  리더를 권장한다.

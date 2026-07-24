@@ -1,0 +1,21 @@
+title: "DirectX 12 게임 엔진과 실시간 그래픽스"
+subtitle: "기초 수학부터 PBR·렌더 그래프·GPU 드리븐·DXR까지"
+author:
+  - "OpenAI"
+date: "2026-07-24"
+lang: ko-KR
+rights: "학습 및 개인 포트폴리오 제작용. 인용된 외부 자료의 권리는 각 저작권자에게 있습니다."
+identifier: "urn:uuid:2c9a6f16-fba1-4d67-9a9c-12a57e420026"
+publisher: "사용자 맞춤 제작"
+subject:
+  - DirectX 12
+  - Game Engine
+  - Real-Time Graphics
+  - C++
+  - HLSL
+  - PBR
+  - Ray Tracing
+cover-image: cover.png
+toc-title: "목차"
+reference-section-title: "참고문헌"
+link-citations: true
