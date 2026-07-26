@@ -1,0 +1,4 @@
+fn main() -> int {
+    print_string("Hello, MiniLang!");
+    return 0;
+}

@@ -1,0 +1,17 @@
+fn gcd(a0: int, b0: int) -> int {
+    let a: int = a0;
+    let b: int = b0;
+    while (b != 0) {
+        let remainder: int = a % b;
+        a = b;
+        b = remainder;
+    }
+    return a;
+}
+
+fn main() -> int {
+    let answer: int = gcd(1071, 462);
+    assert(answer == 21);
+    print_int(answer);
+    return 0;
+}

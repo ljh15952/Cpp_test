@@ -1,0 +1,8 @@
+/* nested comments are accepted: /* inner */ */
+fn main() -> int {
+    let answer: int = 0x2a + 0b10;
+    if (answer >= 44 && true) {
+        print_string("C lexer OK");
+    }
+    return answer;
+}

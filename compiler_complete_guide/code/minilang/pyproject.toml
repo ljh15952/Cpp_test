@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minilang-compiler-book"
+version = "1.0.0"
+description = "Executable teaching compiler accompanying 프로그래머를 위한 컴파일러 완전 정복"
+requires-python = ">=3.11"
+authors = [{name = "Compiler Book Project"}]
+license = {text = "MIT"}
+
+[project.scripts]
+minilang = "minilang.cli:main"
+
+[tool.setuptools]
+packages = ["minilang"]

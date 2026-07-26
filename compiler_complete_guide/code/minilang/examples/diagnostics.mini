@@ -1,0 +1,11 @@
+struct Pair {
+    left: int;
+    right: int;
+}
+
+fn main() -> int {
+    let pair: Pair = Pair { left: 1 };
+    let count: bool = 42;
+    missing = count + 1;
+    return "not an integer";
+}

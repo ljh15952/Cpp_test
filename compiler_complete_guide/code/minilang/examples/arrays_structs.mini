@@ -1,0 +1,29 @@
+struct Point {
+    x: int;
+    y: int;
+}
+
+fn dot(a: Point, b: Point) -> int {
+    return a.x * b.x + a.y * b.y;
+}
+
+fn sum(values: [int; 5]) -> int {
+    let total: int = 0;
+    for (let i: int = 0; i < len(values); i = i + 1) {
+        total = total + values[i];
+    }
+    return total;
+}
+
+fn main() -> int {
+    let values: [int; 5] = [2, 3, 5, 7, 11];
+    let left: Point = Point { x: 2, y: 3 };
+    let right: Point = Point { x: 5, y: 7 };
+
+    values[0] = values[0] + 1;
+    left.x = 4;
+
+    print_int(sum(values));
+    print_int(dot(left, right));
+    return 0;
+}

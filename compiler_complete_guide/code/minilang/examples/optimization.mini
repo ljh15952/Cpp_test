@@ -1,0 +1,10 @@
+fn main() -> int {
+    let folded: int = (2 + 3) * (10 - 4);
+    if (true && (folded == 30)) {
+        print_int(folded);
+        return 0;
+        print_string("dead");
+    } else {
+        return 1;
+    }
+}
