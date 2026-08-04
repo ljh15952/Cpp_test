@@ -50,3 +50,35 @@ int main() {
 	printArr(arr2);
 	return 0;
 }
+
+
+#include "Player.h"
+#include <iostream>
+#include <vector>
+#include <span>
+using namespace std;
+
+struct Trace {
+	explicit Trace(string name) : name(move(name)) {
+		cout << "+" << this->name << endl;
+	}
+	~Trace() {
+		cout << "-" << name << endl;
+	}
+	string name;
+};
+
+Trace global{ "global" };
+
+int main() {
+	
+	Trace a{ "a" };
+
+	{
+		Trace b{"b"};
+		auto c = make_unique<Trace>("c");
+	}
+	static Trace d{"d"};
+
+	return 0;
+}
